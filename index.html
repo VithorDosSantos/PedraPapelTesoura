@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedraPapelTepsoura</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h2>Pedra papel e tesoura</h2>
+        <div class="escolhas">
+        <img id="pedra" src="pedra.jpg" alt="Pedra" onclick="play('pedra')">
+        <img id="papel" src="papel.png" alt="Papel" onclick="play('papel')">
+        <img id="tesoura" src="tesoura.jpg" alt="Tesoura" onclick="play('tesoura')">
+        </div>
+        <div class="result" id="result">Escolha uma opção</div>
+    <button class="play-again" onclick="resetGame()">Jogar Novamente</button>
+      </div>
+      
+</body>
+</html>
